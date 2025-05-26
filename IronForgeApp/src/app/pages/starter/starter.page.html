@@ -1,18 +1,19 @@
-<ion-content class="ion-padding">
+<ion-content>
   <div class="container">
-    <img src="assets/champion-placeholder.png" alt="Champion avatar" class="avatar" />
+    <img src="assets/woman-elf.png" alt="Champion avatar" class="avatar" />
     
     <h1>IronForge</h1>
     <p class="subtitle">Your new workout best friend.</p>
 
-    <ion-button expand="block" color="success" routerLink="/new-champion-1">
+    <a routerLink="/new-champion-1" class="custom-button success">
       Create a new champion
-    </ion-button>
+    </a>
 
-    <ion-button expand="block" fill="outline" routerLink="/login">
+    <a class="custom-button outline" routerLink="/login">
       I already have a champion
-    </ion-button>
+    </a>
 
-    <p class="invite-code">Have an invite code?</p>
+    <h3 class="invite-code">Have an invite code?</h3>
+    <p class="terms-and-privacy">By continuing, you agree to our Terms of Service and Privacy Policy</p>
   </div>
 </ion-content>

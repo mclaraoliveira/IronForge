@@ -5,6 +5,7 @@
   justify-content: center;
   height: 100%;
   text-align: center;
+  background-color: white;
 }
 
 .avatar {
@@ -17,12 +18,61 @@
 h1 {
   font-size: 24px;
   margin: 8px 0;
+  color: #1d1d1d;
 }
 
 .subtitle {
   font-size: 16px;
   color: gray;
-  margin-bottom: 32px;
+  margin-bottom: 100px;
+}
+
+.custom-button {
+  display: block;
+  width: 60%;
+  padding: 12px;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  height: 20px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+
+  &:active {
+    opacity: 0.7;
+  }
+}
+
+.custom-button.success {
+  background-color: #34c759;
+  color: #ffffff;
+  border: none;
+
+  &:active {
+    background-color: #2eb54d;
+  }
+}
+
+.custom-button.outline {
+  background-color: transparent;
+  color: #666;
+  border: 1px solid #ccc;
+
+  &:active {
+    background-color: #f0f0f0;
+  }
+}
+
+.terms-and-privacy {
+  font-size: small;
+  padding: 0px 100px;
 }
 
 .invite-code {
